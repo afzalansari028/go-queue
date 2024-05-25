@@ -12,30 +12,31 @@ With the help of below Go command, simply install the `myqueue` package
 ```
 ## Example:
 ```bash
- package main
+package main
 
 import (
 	"fmt"
 
-	"github.com/afzalansari028/go-stack/mystack"
+	"github.com/afzalansari028/go-queue/myqueue"
 )
 
 func main() {
+	fmt.Println("queueu!!!!!!")
 
-	fmt.Println("let's play with stack using golang")
+	queue := myqueue.Queue{}
 
-	stack := mystack.Stack{}
+	queue.Enqueue(10)
+	queue.Enqueue(20)
+	queue.Enqueue(30)
+	queue.Enqueue(40)
+	queue.Enqueue(50)
 
-	stack.Push(10) // push an elemment into the stack int type
-	stack.Push("a")
-	stack.Display()
-	stack.Pop() // remove an elememnt from the stack
+	queue.Dequeue()
 
-	stack.Display()                            //display all elements
-	fmt.Println("top element::", stack.Peek()) // see the top element
+	fmt.Println("Peek::", queue.Peek())
 
-	fmt.Println("isempty::", stack.IsEmpty())
-	fmt.Println("size::", stack.Size())
+	queue.Dispay()
+
 }
 
 ```
