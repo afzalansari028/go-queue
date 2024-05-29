@@ -2,7 +2,7 @@
 ====================================
 Queue is a linear data structure which follows the FIFO(First In First Out) policy. You can remove an element from front side and insert from rear side. 
 
-This library an implementation of a circular queue.
+This library is an implementation of a circular queue.
 
 ## Time Complexity of operations
 Enqueue() : O(1)  
