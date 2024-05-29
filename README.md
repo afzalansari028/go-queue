@@ -2,6 +2,11 @@
 ====================================
 Queue is a linear data structure which follows the FIFO(First In First Out) policy. You can remove an element from front side and insert from rear side.
 
+Time Complexity:
+Enqueue : O(1)
+Dequeue : O(1)
+Peek()  : O(1)
+
 **Get started**
 ===================
 ## Installation
