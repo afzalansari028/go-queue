@@ -7,7 +7,9 @@ This library is an implementation of a circular queue.
 ## Time Complexity of operations
 Enqueue() : O(1)  
 Dequeue() : O(1)  
-Peek()    : O(1)
+Peek()    : O(1)  
+IsFull()  : O(1)  
+IsEmpty() : O(1)
 
 **Get started**
 ===================
