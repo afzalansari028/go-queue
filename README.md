@@ -5,9 +5,9 @@ Queue is a linear data structure which follows the FIFO(First In First Out) poli
 This library an implementation of a circular queue.
 
 ## Time Complexity:
-Enqueue : O(1)  
-Dequeue : O(1)  
-Peek    : O(1)
+Enqueue() : O(1)  
+Dequeue() : O(1)  
+Peek()    : O(1)
 
 **Get started**
 ===================
